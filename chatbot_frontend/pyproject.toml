@@ -1,0 +1,9 @@
+[project]
+name="cahtbot-frontend"
+version="0.1"
+dependencies = [
+"streamlit==1.29.0","requests==2.31.0"
+]
+
+[project.optional-dependencies]
+dev = ["black","flake8"]
